@@ -1,0 +1,6 @@
+# Uploaded profile pictures are user-supplied — never execute anything here.
+<FilesMatch "\.(php|php\d|phtml|pl|py|cgi|sh)$">
+    Require all denied
+</FilesMatch>
+Options -ExecCGI
+php_flag engine off

@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiBubbleGrad" x1="3" y1="3" x2="29" y2="29" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="11" y1="8" x2="21" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="0" y="0" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1d4ed8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Speech Bubble -->
+  <path d="M16 3.5C8.82 3.5 3 8.75 3 15.22C3 18.79 4.71 21.96 7.43 24.1L6.22 28.15C6.03 28.77 6.61 29.3 7.18 29.02L12.22 26.63C13.43 26.87 14.7 27 16 27C23.18 27 29 21.75 29 15.22C29 8.75 23.18 3.5 16 3.5Z" fill="url(#aiBubbleGrad)" filter="url(#subtleGlow)"/>
+  <!-- Primary 4-point AI Star Spark -->
+  <path d="M16 8.5C16.3 11.6 17.65 12.95 20.75 13.25C17.65 13.55 16.3 14.9 16 18C15.7 14.9 14.35 13.55 11.25 13.25C14.35 12.95 15.7 11.6 16 8.5Z" fill="url(#sparkGrad)"/>
+  <!-- Accent Mini Sparkle -->
+  <path d="M22.5 7.5C22.65 8.7 23.3 9.35 24.5 9.5C23.3 9.65 22.65 10.3 22.5 11.5C22.35 10.3 21.7 9.65 20.5 9.5C21.7 9.35 22.35 8.7 22.5 7.5Z" fill="#93c5fd"/>
+</svg>
